@@ -7,14 +7,15 @@ import { DashboardComponent } from '../../dashboard/dashboard.component';
 import { UserProfileComponent } from '../../user-profile/user-profile.component';
 import { TableListComponent } from '../../table-list/table-list.component';
 import { NotificationsComponent } from '../../notifications/notifications.component';
-
 import {
   MatButtonModule,
   MatInputModule,
   MatRippleModule,
   MatFormFieldModule,
   MatTooltipModule,
-  MatSelectModule
+  MatSidenavModule,
+  MatSelectModule,
+
 } from '@angular/material';
 @NgModule({
   imports: [
@@ -27,6 +28,7 @@ import {
     MatFormFieldModule,
     MatInputModule,
     MatSelectModule,
+    MatSidenavModule,
     MatTooltipModule,
   ],
   declarations: [
@@ -37,4 +39,4 @@ import {
   ]
 })
 
-export class AdminLayoutModule {}
+export class AdminLayoutModule { }

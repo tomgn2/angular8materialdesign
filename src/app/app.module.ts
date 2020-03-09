@@ -18,6 +18,7 @@ import {
   AgmCoreModule
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
+import { MatSidenavModule } from '@angular/material';
 
 @NgModule({
   imports: [
@@ -25,6 +26,7 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
+    MatSidenavModule,
     ComponentsModule,
     RouterModule,
     AppRoutingModule

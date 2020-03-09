@@ -1,4 +1,4 @@
-@media all and (max-width: 991px) {
+@media all and (max-width: 2048px) {
     [class*="navbar-expand-"] > .container,
     [class*="navbar-expand-"] > .container-fluid{
         padding-left: 15px;
@@ -172,7 +172,7 @@
 
 }
 
-@media all and (min-width: 991px) {
+@media all and (min-width: 2048px) {
     .navbar .navbar-nav{
         align-items: center;
 
@@ -182,7 +182,7 @@
     }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 2048px) {
   .presentation-page {
     .section-components {
       .components-macbook {
@@ -281,7 +281,7 @@
 
 /*          Changes for small display      */
 
-@media (max-width: 991px){
+@media (max-width: 2048px){
 
     .form-group{
         textarea{
@@ -315,8 +315,8 @@
         }
 
         .close-layer{
-            left: auto;
-            right: 0;
+            left: 0;
+            right: auto;
         }
     }
 
@@ -814,7 +814,7 @@
 }
 
 
-@media (min-width: 992px) {
+@media (min-width: 2049px) {
   .main-panel {
     .navbar .navbar-collapse {
       .navbar-nav .nav-item .nav-link p {
